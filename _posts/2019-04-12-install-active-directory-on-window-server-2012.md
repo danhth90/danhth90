@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Install active directory on window server 2012,
+title: Install active directory on window server 2012
 categories: sharepoint windowserver
 ---
 
 Bài viết này sẽ hướng dẫn các bạn cài đặt Active Directory® role trên máy Microsoft® Windows Server® 2012 server, cấu hình domain controller.
 
-# Install Active Directory
+# 1. Install Active Directory
 
 Mở **Server Manager** trên thanh task bar, chọn mục số 2 **Add roles and features**
 
@@ -34,26 +34,26 @@ Mở **Server Manager** trên thanh task bar, chọn mục số 2 **Add roles an
 ![Confirm Install Roles Active Directory Servics](https://i.ibb.co/KVGHmp3/Server-manager-8.png)
 *img-8:* Xem lại thông tin **Confirm installation selections** và click **Install**
 
-# Configure Active Directory
+# 2. Configure Active Directory
 
 Sau khi cài đặt AD DS role hoàn tất, bước tiếp theo, chúng ta sẽ tiến hành cấu hình domain như sau
 
 ![Notify panel](https://i.ibb.co/84bx9bg/Configure-domain-1.png)
 *img-9*
-*Bước 1:* Mở **Notify panel**
-*Bước 2:* click **Promote this server to a domain controller** để thực hiện cấu hình
+*-Bước 1:* Mở **Notify panel**
+*-Bước 2:* click **Promote this server to a domain controller** để thực hiện cấu hình
 
 ![Register domain name](https://i.ibb.co/FXcL5ks/Configure-domain-2.png)
-*img-10:* Tại tab **Deployment Configuration** thực hiện như sau:
-*Bước 1:* Check **Add a new forest**
-*Bước 2:* click vào textbox **Root domain name** nhập tên domain.
-*Bước 3:* click **Next**.
+*-img-10:* Tại tab **Deployment Configuration** thực hiện như sau:
+*-Bước 1:* Check **Add a new forest**
+*-Bước 2:* click vào textbox **Root domain name** nhập tên domain.
+*-Bước 3:* click **Next**.
 
 ![input password administrator domain](https://i.ibb.co/5Gvq2Zv/Configure-domain-3.png)
 *img-11:* Tại tab **Domain Controller Options** thực hiện như sau:
-*Bước 1:* Nhập **Password**
-*Bước 2:* Nhập lại **Password** Confirm.
-*Bước 3:* click **Next**.
+*-Bước 1:* Nhập **Password**
+*-Bước 2:* Nhập lại **Password** Confirm.
+*-Bước 3:* click **Next**.
 
 ![DNS Options](https://i.ibb.co/sFQvhCb/Configure-domain-4.png)
 *img-12:* click **Next**.
