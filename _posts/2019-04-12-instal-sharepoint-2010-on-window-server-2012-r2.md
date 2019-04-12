@@ -11,7 +11,7 @@ Công việc đầu tiên mình làm là tiến hành cài đặt môi trường
 
 # 2. Danh mục các bài lab hướng dẫn
 
-* [https://danhpoint.info/install-active-directory-on-window-server-2012/](Lab sharepoint 2010 (P1): Cài đặt Active Directory)
+* [Lab sharepoint 2010 (P1): Cài đặt Active Directory](https://danhpoint.info/install-active-directory-on-window-server-2012/)
 * Lab sharepoint 2010 (P2): Cài đặt SQL Server 2008 R2.
 * Lab sharepoint 2010 (P3): Cài đặt Window Server Features và Role Services.
 * Lab sharepoint 2010 (P4): Cài đặt Sharepoint Server 2010.
