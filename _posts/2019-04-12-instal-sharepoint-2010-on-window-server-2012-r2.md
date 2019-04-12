@@ -4,7 +4,7 @@ title: How to install sharepoint 2010 on window server 2012 r2,
 categories: sharepoint
 ---
 
-#Bối cảnh lịch sử
+# Bối cảnh lịch sử
 
 Vào một ngày đẹp trời như mọi ngày, đang nhâm nhi ly cafe tại quán [Ghiền cà phê Biên Hòa](https://www.facebook.com/ghiencafebienhoa) thì được thằng đồng nghiệp giới thiệu cho một job freelance (đội ơn thằng em) trong lúc túng thiếu. Mà ngặc nỗi, công nghệ từ thời cổ đại... ứng dụng trên nền tảng sharepoint 2010.
 
