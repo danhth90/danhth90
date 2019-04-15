@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Install active directory on window server 2012
+title: Install net framework 3.5 on window server 2012 r2
 categories: sharepoint windowserver
 ---
 
