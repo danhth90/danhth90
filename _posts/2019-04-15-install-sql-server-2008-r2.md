@@ -34,13 +34,13 @@ Chạy file **setup.exe** từ bộ cài đặt, xuất hiện dialog **Program 
 
 ![Feature Selection](https://i.ibb.co/qr4WqyF/Setup-sql-2008-r2-9.png)
 *img-7:* Check chọn các features sau:
-    * Database Engine Services
-    *  Full-Text Search
-    * Analysis Services
-    * Reporting Services
-    * Management Tools - Basic
-    *  Management Tools - Complete
-    * Microsoft Sync Framework
+* Database Engine Services
+*  Full-Text Search
+* Analysis Services
+* Reporting Services
+* Management Tools - Basic
+*  Management Tools - Complete
+* Microsoft Sync Framework
 nhấn **Next**
 
 ![Server Configuration - Service Accounts](https://i.ibb.co/gJ9jH6t/Setup-sql-2008-r2-10.png)
