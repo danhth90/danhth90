@@ -3,16 +3,19 @@ layout: post
 title: How to install SQL Server 2008 R2 on Window Server 2012 R2
 categories: sql sharepoint
 description: Hướng dẫn cài đặt SQL Server 2008 R2 để cài đặt sharepoint 2010 trên window server 2012R2
+video: https://www.youtube.com/embed/FTvnloYsh2I
+next: install-window-server-features
+prev: install-net-framework-3-5-on-window-server-2012-r2
 ---
 
 Trong bài trước, chúng ta đã cài đặt thành công "[.net framework 3.5](/install-net-framework-3.5-on-window-server-2012-r2)". Đây là bước tiền đề, để có thể cài đặt thành công **SQL Server 2008 R2** trên Window Server 2012 R2.
 
-# Chuẩn bị
+# 2. Chuẩn bị
 
 * Bộ Source cài đặt [**MS SQL Server 2008 R2**](https://www.microsoft.com/en-us/download/details.aspx?id=1279)
 * Tài khoản **Administrator** hoặc quyền admin trên server.
 
-# Cài đặt
+# 3. Cài đặt
 
 Chạy file **setup.exe** từ bộ cài đặt, xuất hiện dialog **Program Compatibility Asistant**
 ![Program Compatibility Asistant](https://i.ibb.co/z66wJT1/Setup-sql-2008-r2-1.png)
