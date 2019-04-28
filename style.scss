@@ -294,10 +294,9 @@ footer {
 .danh-description{
   font-size: 11pt;
   opacity: 0.8;
-  line-height: 1;
+  line-height: 1.4;
   padding-top: 5px;
   @include mobile {
-    font-size: 11pt;
   }
 }
 
