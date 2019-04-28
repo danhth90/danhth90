@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Xin chào, tôi tên là Huỳnh Thanh Danh
 
-### More Information
+### CV
 
-A place to include any other types of information that you'd like to include about yourself.
+Đây là cv của tui
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[danhth90@gmail.com](mailto:danhth90@gmail.com)

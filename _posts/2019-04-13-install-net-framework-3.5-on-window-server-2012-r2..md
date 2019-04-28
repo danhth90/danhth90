@@ -5,7 +5,6 @@ categories: sharepoint windowserver
 ---
 
 Tình hình là, khi cài đặt .net framework 3.5 trên window server 2012 thì nó báo lỗi **The feature Installation failed because the source files could not be found!**, hồi trên server 2008 có bao giờ bị đâu chớ, haiza!!!
-![Failure](http://i1.taimienphi.vn/tmp/cf/aut/cai-dat-net-framework-3-5-tren-windows-server-2012-r2-1.jpg)
 
 Để cài đặt được .net framework 3.5 thì chúng ta lần lượt làm theo các bước sau:
 
