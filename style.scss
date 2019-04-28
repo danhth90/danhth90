@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
+  // margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
@@ -281,6 +281,20 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.danh-title{
+  font-size: 18pt;
+  a{
+    color: #d0021b;
+  }
+}
+
+.danh-description{
+  font-size: 11pt;
+  opacity: 0.8;
+  line-height: 1;
+  padding-top: 5px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
