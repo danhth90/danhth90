@@ -6,7 +6,10 @@ categories: sharepoint windowserver
 
 Bài viết này sẽ hướng dẫn các bạn cài đặt Active Directory® role trên máy Microsoft® Windows Server® 2012 server, cấu hình domain controller.
 
-# 1. Install Active Directory
+# 1. Video Tutorial
+[![Video install active directory](https://www.youtube.com/upload_thumbnail?v=f0Gdu7gip6w&t=hqdefault&ts=1556437613759)](https://www.youtube.com/upload_thumbnail?v=f0Gdu7gip6w&t=hqdefault&ts=1556437613759)
+
+# 2. Install Active Directory
 
 Mở **Server Manager** trên thanh task bar, chọn mục số 2 **Add roles and features**
 
@@ -34,7 +37,7 @@ Mở **Server Manager** trên thanh task bar, chọn mục số 2 **Add roles an
 ![Confirm Install Roles Active Directory Servics](https://i.ibb.co/KVGHmp3/Server-manager-8.png)
 *img-8:* Xem lại thông tin **Confirm installation selections** và click **Install**
 
-# 2. Configure Active Directory
+# 3. Configure Active Directory
 
 Sau khi cài đặt AD DS role hoàn tất, bước tiếp theo, chúng ta sẽ tiến hành cấu hình domain như sau
 
