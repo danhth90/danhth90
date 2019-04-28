@@ -3,28 +3,35 @@ layout: default
 ---
 
 <article class="post">
- <h1>{{ page.title }}</h1>
+  <h1>{{ page.title }}</h1>
 
   <div class="post-categories">
-Thể loại:  {% if post %}
+    Thể loại: {% if post %}
     {% assign categories = post.categories %}
-  {% else %}
+    {% else %}
     {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/category/{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
- </div>
-  
- <div class="entry">
-    {{ content }}
- </div>
-
- <div class="date">
-    Viết vào {{ page.date | date: "%B %e, %Y" }} 
+    {% endif %}
+    {% for category in categories %}
+    <a href="{{site.baseurl}}/category/{{category|slugize}}">{{category}}</a>
+    {% unless forloop.last %}&nbsp;{% endunless %}
+    {% endfor %}
   </div>
 
-  
+  <div class="entry">
+    {% if page.video %}
+    <h1 id="1-video-tutorial">1. Video Tutorial</h1>
+    <p>
+      <iframe width="1004" height="768" src="{{page.video}}" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+    {% endif %}
+    {{ content }}
+  </div>
+
+  <div class="date">
+    Viết vào {{ page.date | date: "%B %e, %Y" }}
+  </div>
+
+
   {% include disqus.html %}
 </article>
