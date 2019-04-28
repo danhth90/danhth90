@@ -2,7 +2,7 @@
 layout: page
 ---
 
-{% for post in site.categories[page.category] %}
+{% for post in site.category[page.categories] %}
 <article class="post">
 
       <h2><a href=" { {  site.baseurl }} { {  post.url }}"> { {  post.title }}</a></h2>
