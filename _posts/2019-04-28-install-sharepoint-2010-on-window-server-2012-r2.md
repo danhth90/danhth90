@@ -12,6 +12,7 @@ prev: install-window-server-features
 
 * Download sharepoint server 2010 trial [tại đây](https://www.microsoft.com/en-us/download/details.aspx?id=16631)
 * Download file check exists code 1003 [tại đây](https://123link.doctinhot360.site/AeEW5Iy)
+* Download window powershell v2 [tại đây](https://www.microsoft.com/en-us/download/details.aspx?id=20430)
 * Download gói ngôn ngữ tiếng việt cho Sharepoint 2010 [tại đây](https://www.microsoft.com/vi-VN/download/details.aspx?id=3411)
 * Key cài đặt lấy [tại đây](http://bit.ly/2vsmjo4)
  
