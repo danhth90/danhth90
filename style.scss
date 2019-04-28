@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $primary-color;
   font-weight: bold;
 
   line-height: 1.7;
@@ -69,7 +69,7 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $primary-color;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -285,9 +285,10 @@ footer {
 
 .danh-title{
   font-size: 18pt;
-  a{
-    color: #d0021b;
+  @include mobile {
+    font-size: 18pt;
   }
+  
 }
 
 .danh-description{
@@ -295,6 +296,9 @@ footer {
   opacity: 0.8;
   line-height: 1;
   padding-top: 5px;
+  @include mobile {
+    font-size: 11pt;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
