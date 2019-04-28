@@ -2,12 +2,10 @@
 layout: post
 title: Install active directory on window server 2012
 categories: sharepoint windowserver
+video: https://www.youtube.com/embed/U_sSp8vvvDw
 ---
 
 Bài viết này sẽ hướng dẫn các bạn cài đặt Active Directory® role trên máy Microsoft® Windows Server® 2012 server, cấu hình domain controller.
-
-# 1. Video Tutorial
-[![Video install active directory](https://www.youtube.com/upload_thumbnail?v=f0Gdu7gip6w&t=hqdefault&ts=1556437613759)](https://www.youtube.com/watch?v=U_sSp8vvvDw)
 
 # 2. Install Active Directory
 
