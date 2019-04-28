@@ -19,18 +19,18 @@ Mở **Server Manager** trên thanh task bar, chọn mục số 2 **Add roles an
 *img-2:* check role **Application Server**, scroll xuống
 
 ![Select role Web Server (IIS)](https://i.ibb.co/fFQJKSh/window-server-features-2.png)
-*img-2:* check role **Web Server (IIS)**, Nhấn **Next**
+*img-3:* check role **Web Server (IIS)**, Nhấn **Next**
 
 ![Add roles and features](https://i.ibb.co/C2CTH9L/window-server-features-3.png)
-*img-2:* Nhấn **Add Features**
+*img-4:* Nhấn **Add Features**
 
 ![Select feature Windows Identity Foundation 3.5](https://i.ibb.co/Ry2kVmc/window-server-features-4.png)
-*img-2:* check features ** Windows Identity Foundation 3.5**, Nhấn **Next**
+*img-5:* check features ** Windows Identity Foundation 3.5**, Nhấn **Next**
 
 # 3. Cài đặt Role Services **Application Server**
 
 ![Application Server Role Services](https://i.ibb.co/xhNqLpJ/window-server-features-5.png)
-*img-2:* check các role sau
+*img-6:* check các role sau
  * .NET Framework 4.5
  * Distributed Transasctions
    * Incoming Network Transactions
@@ -45,14 +45,14 @@ Nhấn **Next**
 # 4. Cài đặt Role Services **Web Server Role (IIS)**
 
 ![Web Server Role (IIS)](https://i.ibb.co/BTgR8jc/window-server-features-6.png)
-*img-2:* **Common HTTP Features** check các role services sau
+*img-7:* **Common HTTP Features** check các role services sau
  * Default Document
  * Directory Browsing
  * HTTP Errors
  * Static Content
 
 ![Web Server Role (IIS)](https://i.ibb.co/6bw9xRG/window-server-features-7.png)
-*img-2:* **Health and Diagnostics** check các role services sau
+*img-8:* **Health and Diagnostics** check các role services sau
  * HTTP Logging
  * Custom Logging
  * Logging Tools
@@ -60,18 +60,18 @@ Nhấn **Next**
  * Tracing
 
 ![Web Server Role (IIS)](https://i.ibb.co/6bw9xRG/window-server-features-7.png)
-*img-2:* **Performance** check các role services sau
+*img-9:* **Performance** check các role services sau
  * Static Content Compression
 
 ![Web Server Role (IIS)](https://i.ibb.co/x8cZqWT/window-server-features-8.png)
-*img-2:* **Security** check các role services sau
+*img-10:* **Security** check các role services sau
  * Request Filtering
  * Basic Authentication
  * URL Authorization
  * Window Authentication
 
 ![Web Server Role (IIS)](https://i.ibb.co/J58Tr0t/window-server-features-9.png)
-*img-2:* **Application Development** check các role services sau
+*img-11:* **Application Development** check các role services sau
  * .NET Extensibility 3.5
  * .NET Extensibility 4.5
  * ASP
@@ -83,7 +83,7 @@ Nhấn **Next**
  * Server Side Includes
 
 ![Web Server Role (IIS)](https://i.ibb.co/CPZzyyL/window-server-features-10.png)
-*img-2:* **Management Tools** check các role services sau
+*img-12:* **Management Tools** check các role services sau
  * IIS Management Console
  * IIS 6 Management Compatibility
    * IIS 6 Metabase Compatibility
