@@ -15,3 +15,5 @@ Công việc đầu tiên mình làm là tiến hành cài đặt môi trường
 * [Lab sharepoint 2010 (P3): Cài đặt SQL Server 2008 R2](https://danhpoint.info/install-sql-server-2008-r2).
 * [Lab sharepoint 2010 (P4): Cài đặt Window Server Features và Role Services](https://danhpoint.info/install-window-server-features).
 * [Lab sharepoint 2010 (P5): Cài đặt Sharepoint Server 2010](https://danhpoint.info/install-sharepoint-2010-on-window-server-2012-r2).
+* Lab sharepoint 2010 (P6): Tạo mới web application và site collection
+* [Lab sharepoint 2010 (P7): Sử lỗi **'SharePoint 2010 Management Shell – .Net 4.0 runtime version error'**](https://danhpoint.info/fix-error-cmdled-powershell)
