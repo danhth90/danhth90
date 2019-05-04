@@ -12,7 +12,7 @@ prev: install-net-framework-3-5-on-window-server-2012-r2
 
 Copy đoạn lệnh sau vào file txt
 
-C:\Windows\System32\WindowsPowerShell\v1.0\PowerShell.exe -Version 2 -NoExit  " & ' C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\CONFIG\POWERSHELL\Registration\\sharepoint.ps1 ' "
+C:\Windows\System32\WindowsPowerShell\v1.0\PowerShell.exe -Version 2 -NoExit  " & ' C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\CONFIG\POWERSHELL\Registration\sharepoint.ps1 ' "
 
 # 3. Vấn đề
 
