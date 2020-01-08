@@ -2,20 +2,16 @@
 layout: default
 ---
 
-  <div class="posts ptb-100">
-    {% for post in site.posts %}
-      <article class="post">
-  
-        <div class="danh-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
-        {% if post.description %}
-          <div class="entry danh-description">
-            {{ post.description }}
-          </div>
-        {% endif %}
-      </article>
-    {% endfor %}
-  </div>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-
+      <div class="danh-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+      {% if post.description %}
+        <div class="entry danh-description">
+          {{ post.description }}
+        </div>
+      {% endif %}
+    </article>
+  {% endfor %}
 </div>
-
