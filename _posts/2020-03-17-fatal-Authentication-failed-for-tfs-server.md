@@ -8,7 +8,7 @@ description:
 # Lỗi `fatal: Authentication failed for 'http://tfs2017:8080/tfs/MHS/_git/SureHIS-GT/'`
 
 
-![Error faltal](https://ibb.co/GH0RTVL)
+![Error faltal](https://i.ibb.co/qJdp5Rf/image.png)
 
 Cách xử lý
 
